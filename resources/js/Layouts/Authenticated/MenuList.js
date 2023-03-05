@@ -48,9 +48,6 @@ const UserMenu =
         ),
         text:"Messages (102)", 
     },
-    
-
-        
 ];
 
-export {UserMenu};
+export { UserMenu };

@@ -1,6 +1,6 @@
 import SubscriptionDetail from '@/Layouts/Authenticated/SubscriptionDetail';
 import MenuItem from './MenuItem';
-import { UserMenu } from './MenuList';
+import { UserMenu } from "./MenuList";
 import {Link} from '@inertiajs/inertia-react';
 
 export default function Sidebar({auth}){
@@ -25,8 +25,7 @@ export default function Sidebar({auth}){
                     isActive={
                         menu.link && route().current(menu.link)
                     }
-                    ></MenuItem>
-
+                    />
                ))}
             </div>
           
